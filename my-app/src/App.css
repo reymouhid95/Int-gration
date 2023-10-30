@@ -85,6 +85,11 @@
   border-radius: 50% !important;
 }
 
+.card:hover {
+  transform: scale(1.1);
+  transition: 2s;
+}
+
 .tech {
   background-color: rgba(7, 48, 113, 0.781);
   color: white;
@@ -108,4 +113,8 @@ a {
   color: black !important;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.social {
+  color: rgba(7, 48, 113, 0.781) !important;
 }

@@ -4,7 +4,7 @@ import * as Icon from "react-bootstrap-icons";
 function NavBar() {
   return (
     <div className="mb-5">
-      <Navbar expand="lg" className="bg-transparent fw-bold fixed-top nav p-3">
+      <Navbar expand="lg" className="fw-bold fixed-top nav p-4">
         <Container>
           <Navbar.Brand href="#home">
             <Icon.Binoculars size={30} />

@@ -28,14 +28,14 @@ function Footer() {
               <a href="#contact">Contacts</a>
               <a href="#sign">Sign In</a>
             </div>
-            <div className="p-4">
-              <span className="px-2 fs-2">
+            <div className="pt-4 pb-5">
+              <span className="px-2 fs-2 social">
                 <Icon.Facebook />
               </span>
-              <span className="px-2 fs-2">
+              <span className="px-2 fs-2 social">
                 <Icon.Twitter />
               </span>
-              <span className="px-2 fs-2">
+              <span className="px-2 fs-2 social">
                 <Icon.Linkedin />
               </span>
             </div>
