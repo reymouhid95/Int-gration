@@ -85,6 +85,10 @@
   border-radius: 50% !important;
 }
 
+.card {
+  cursor: pointer;
+}
+
 .card:hover {
   transform: scale(1.1);
   transition: 2s;
@@ -117,4 +121,10 @@ a {
 
 .social {
   color: rgba(7, 48, 113, 0.781) !important;
+  cursor: pointer;
+}
+
+.social:hover {
+  color: cadetblue !important;
+  transition: 2s !important;
 }
