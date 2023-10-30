@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.nav {
+  background-image: url("../src/assets/images/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.banner {
+  height: 140vh;
+  background-image: url("../src/assets/images/4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* color: bisque; */
+}
+
+.left {
+  padding-top: 45vh;
+}
+
+.icon {
+  color: rgba(7, 48, 113, 0.781) !important;
+}
+
+.try {
+  background-color: rgba(7, 48, 113, 0.781) !important;
+  color: white !important;
+  border: none !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.try:hover {
+  background-color: white !important;
+  color: black !important;
+  transition: 2s !important;
+}
+
+.who {
+  height: 500px;
+  background-image: url("../src/assets/images/1.jpg");
+  background-size: cover;
+}
+
+.meet {
+  height: 500px;
+  background-image: url("../src/assets/images/meeting.jpg");
+  background-size: cover;
+}
+
+/* .card {
+  position: relative;
+} */
+
+/* #cards {
+  max-width: 85vh;
+} */
+
+/* .cards {
+  position: absolute;
+  top: 5%;
+  left: 35% !important;
+} */
+
+.img {
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: cover;
+  margin-left: 130px;
+  border-radius: 50% !important;
+}
+
+.tech {
+  background-color: rgba(7, 48, 113, 0.781);
+  color: white;
+}
+
+.sign {
+  border: none !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.sign:hover {
+  background-color: rgba(7, 48, 113, 0.781) !important;
+  border: none !important;
+  transition: 2s !important;
+  color: white !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+  padding-left: 10px;
+  padding-right: 10px;
+}
